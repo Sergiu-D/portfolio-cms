@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const ContentSecurityPolicy = require('./csp')
 const redirects = require('./redirects')
-const path = require('path')
-const { withPayload } = require('@payloadcms/next-payload')
+// const path = require('path')
+// const { withPayload } = require('@payloadcms/next-payload')
 
 const nextConfig = {
   reactStrictMode: true,
